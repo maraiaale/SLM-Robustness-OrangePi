@@ -1,0 +1,41 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Logs and temporary outputs
+*.log
+*.out
+*.tmp
+*_final.txt
+tree.txt
+repo_tree_check.txt
+cpu_stress_files_check.txt
+cpu_png_check.txt
+npu_png_check.txt
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Documents not part of the repository
+*.docx
+*.pdf
+
+# Generated cache/data processing artifacts
+.cache/
+# Model binaries are distributed separately due to size limits
+models/**/*.gguf
+models/**/*.rkllm
